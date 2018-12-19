@@ -6,6 +6,8 @@ TagManager:
   tags:
   - breakable
   - enemy
+  - modeChange
+  - medium
   layers:
   - Default
   - TransparentFX

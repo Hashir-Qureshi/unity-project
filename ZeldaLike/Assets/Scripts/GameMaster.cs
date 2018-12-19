@@ -40,9 +40,9 @@ public class GameMaster : MonoBehaviour {
         if(playerHealth.RuntimeValue == 0)
         {
             Time.timeScale = 0f;
-            gameOverScreen.SetActive(true);
             endingText.text = "YOU DED";
             endingSubText.text = "It won't hurt to try again...";
+            gameOverScreen.SetActive(true);
         }
         else if(numOfEnemies == 0)
         {
