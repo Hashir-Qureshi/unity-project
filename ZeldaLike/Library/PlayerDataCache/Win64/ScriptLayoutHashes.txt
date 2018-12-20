@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/qures/Desktop/unity final/ZeldaLike.exe
+C:/Users/qures/Desktop/Game Programming Final/Extermination.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/EasyLevel.unity
