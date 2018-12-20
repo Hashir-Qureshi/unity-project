@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-D:/Google Drive/Unity/final test/ZeldaLike.exe
+C:/Users/qures/Desktop/unity final/ZeldaLike.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/EasyLevel.unity
@@ -185,5 +185,5 @@ e23d5b21945b786db72aba196892558d Assembly-CSharp.dll:.PlayerMovement
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-b89c9624956b0def04493601a88eeeb7 Assembly-CSharp.dll:.Countdown
+aa2fbcd19626dc87a7d431de399d8bd7 Assembly-CSharp.dll:.Countdown
 1fa71264056d88a298492dccf662e502 Assembly-CSharp.dll:.CameraMovement

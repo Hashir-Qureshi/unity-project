@@ -7,9 +7,11 @@ public class Countdown : MonoBehaviour {
 
     public IntValue timeLeft;
     public Text timer;
+    public GameObject twentyFour;
 	// Use this for initialization
 	void Start () {
         StartCoroutine(LoseTime());
+        StartCoroutine(PopUp());
 	}
 	
 	// Update is called once per frame
@@ -26,5 +28,17 @@ public class Countdown : MonoBehaviour {
             yield return new WaitForSeconds(1);
             timeLeft.RuntimeValue--;
         }
+    }
+
+    IEnumerator PopUp()
+    {
+        yield return new WaitForSeconds(22);
+        twentyFour.SetActive(true);
+        StartCoroutine(PopDown());
+    }
+    IEnumerator PopDown()
+    {
+        yield return new WaitForSeconds(2);
+        twentyFour.SetActive(false);
     }
 }
